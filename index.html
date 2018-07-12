@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <title>Input</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1 align="center">Enter the Details</h1>
+    <br>
+    <div class="input" align="center">
+        
+        <table id="table-input">
+           <tr>
+               <td>
+                   <label>Name</label>
+               </td>
+               <td>
+                   <input type="text" id="name-input" placeholder=" Enter your name">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <label>Age</label>
+               </td>
+                <td>
+                        <input type="text" id="age-input" placeholder=" Enter your age">
+                        
+                </td>               
+                
+           </tr>
+           <tr>
+               <td></td>
+               <td>
+                  <button onClick="submitButton()"> Submit </button> 
+                  <a href="newPage.html"><button> New Page</button></a>
+               </td>
+           </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="display" align="center">
+
+        <table id="table-display">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Check 
+                </th>
+            </tr>
+       
+        </table>
+        <!-- <div class="modal">
+                <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h2 id="message"></h2>
+                    </div>
+        </div> -->
+
+        <div id="overlay">
+                <div>
+                     <h3 id="message"></h3>
+                     Click here to [<a href='#' onclick='overlay()'>close</a>]
+                </div>
+           </div>
+    </div>
+    <!-- <a href="newPage.html"><button align="center">Next page</button></a> -->
+</body>
+</html>
