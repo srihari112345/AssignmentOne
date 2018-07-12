@@ -135,7 +135,8 @@ function sendData() {
         let columnTwoText = document.createTextNode(ageUserList[z]);
 
 
-        button.id = "Check" + buttonId; buttonId++;
+        button.id = "Check" + buttonId; 
+        buttonId++;
         button.setAttribute("onclick", "checkVowel2(this.id,nameInput , ageInput)");
         button.setAttribute("class", "trigger");
         // console.log("Check"+i);
